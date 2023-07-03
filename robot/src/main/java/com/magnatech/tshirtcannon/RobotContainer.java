@@ -16,6 +16,8 @@ public class RobotContainer {
 
     public void start(){
 
+Diagnostics diagnosty = new Diagnostics();
+
         System.out.println("Robot Started.");
 
         // TODO : Add functionality.

@@ -1,0 +1,17 @@
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt- get install joystick
+
+sudo bluetoothctl
+
+agent on
+discoverable on
+pairable on
+default-agent
+
+scan on
+
+connect CONTROLLER_MAC_ADDRESS
+
+trust CONTROLLER_MAC_ADDRESS
