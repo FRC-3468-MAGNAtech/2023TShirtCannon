@@ -15,7 +15,7 @@ public class RobotContainer {
     }
 
     public void start(){
-
+Controller controller=new Controller();
         System.out.println("Robot Started.");
 
         // TODO : Add functionality.
